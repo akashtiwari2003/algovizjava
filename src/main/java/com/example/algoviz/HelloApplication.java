@@ -18,8 +18,6 @@ public class HelloApplication extends Application {
         stage.setScene(scene);
 
         Image img = new Image("Algoviz_Logo.png");
-
-
         Image icon = new Image("Algoviz_Logo.png");
         stage.getIcons().add(icon);
         stage.setTitle("Algo Viz");
