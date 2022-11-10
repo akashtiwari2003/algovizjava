@@ -4,9 +4,9 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="491.0" prefWidth="738.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
@@ -14,7 +14,10 @@
       <TextField layoutX="65.0" layoutY="195.0" />
       <PasswordField layoutX="65.0" layoutY="252.0" />
       <Button layoutX="64.0" layoutY="309.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="150.0" text="Login" />
-      <ImageView fitHeight="91.0" fitWidth="150.0" layoutX="64.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="myImageView" fitHeight="91.0" fitWidth="150.0" layoutX="64.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Algoviz_Logo.png" />
+         </image></ImageView>
       <Label layoutX="65.0" layoutY="172.0" text="Username" />
       <Label layoutX="65.0" layoutY="228.0" text="Password" />
    </children>
